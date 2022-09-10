@@ -10,10 +10,13 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import br.com.estudo.gerenciador.modelo.Banco;
+import br.com.estudo.gerenciador.modelo.Empresa;
+
 /**
  * Servlet implementation class ListaEmpresaServlet
  */
-@WebServlet(name = "listaEmpresa", urlPatterns = { "/listaEmpresa" })
+//@WebServlet(name = "listaEmpresa", urlPatterns = { "/listaEmpresa" })
 public class ListaEmpresaServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
